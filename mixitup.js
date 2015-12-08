@@ -17,6 +17,9 @@ var mixitupConfig = {
             controls: {
                 enable: false // we won't be needing these
             },
+            layout: {
+						containerClass: 'Grid' // Add the class 'list' to the container on load
+					},
             callbacks: {
                 onMixFail: function () {
                     alert('No items were found matching the selected filters.');
