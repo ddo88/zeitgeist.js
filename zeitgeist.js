@@ -28,12 +28,13 @@
                     } catch (e) {
                         dfd.reject(e);
                     }
-
                 });
             }, 0);
-
             return dfd.promise();
         }
+        
+        
+        
 
 })(window.Zg = window.Zg || {}, jQuery);
 
