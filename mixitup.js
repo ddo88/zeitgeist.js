@@ -136,5 +136,7 @@ var mixitupConfig = {
     }
 };
 
+//for setup de configuration
 mixitupConfig.init();
+//load de mixtiup
 mixitupConfig.load();
